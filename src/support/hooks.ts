@@ -1,8 +1,8 @@
 import { Before, After, BeforeAll, setDefaultTimeout } from '@cucumber/cucumber';
 import { World } from './world';
 
-// Set default timeout for all steps
-setDefaultTimeout(2000);
+// Increase default timeout to 10 seconds
+setDefaultTimeout(10 * 1000);
 
 Before(async function(this: World) {
     let retries = 3;

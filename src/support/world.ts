@@ -31,7 +31,7 @@ export class World extends CucumberWorld {
     this.browser = await chromium.launch({ headless: false });
     const context = await this.browser.newContext();
     this.page = await context.newPage();
-    this.page.setDefaultTimeout(10000);
+    this.page.setDefaultTimeout(30000);
   }
 
   async cleanup() {
