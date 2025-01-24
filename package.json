@@ -1,0 +1,25 @@
+{
+  "name": "playwright-cucumber-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.49.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^latest",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^latest",
+    "allure-commandline": "^2.32.0",
+    "npm-force-resolutions": "^0.0.10",
+    "typescript": "^latest"
+  }
+}
